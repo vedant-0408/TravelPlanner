@@ -21,7 +21,13 @@
     "jsonwebtoken": "^9.0.2",
     "puppeteer": "^23.6.0",
     "razorpay": "^2.9.4",
-    "redis": "^4.7.1"
+    "redis": "^4.7.1",
+    "framer-motion": "^11.11.8",
+    "ioredis": "^5.4.1",
+    "jose": "^5.9.4",
+    "js-cookie": "^3.0.5",
+    "stripe": "^17.2.1",
+    "zustand": "^5.0.0"
   },
   "devDependencies": {
     "prisma": "^5.21.0"
