@@ -6,7 +6,7 @@ import Redis from 'ioredis';
 // import { createClient } from 'redis';
 
 export const connection = new Redis({
-    password: '0BZJdSGqvlKFe8sysOoi8B5xDBfOX43n',
-    host: 'redis-14731.c8.us-east-1-4.ec2.redns.redis-cloud.com',
-    port: 14731
+    password: 'K8lOlaoof4XQbNX1KgP58lWdfq0ZY5KO',
+    host: 'redis-11450.c80.us-east-1-2.ec2.redns.redis-cloud.com',
+    port: 11450
 },{maxRetriesPerRequest:null});

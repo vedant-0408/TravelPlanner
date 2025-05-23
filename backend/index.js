@@ -162,7 +162,7 @@ app.post("/admin/login", async (req, res) => {
 
   try {
     const user = await prisma.admin.findUnique({
-      where: { email, password: CryptoJS.SHA256(password).toString() },
+      where: { email, password },
     });
 
     if (!user) {
